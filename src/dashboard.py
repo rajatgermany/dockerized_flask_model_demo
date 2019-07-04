@@ -1,16 +1,14 @@
+from math import sqrt
+
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
-from dash.dependencies import Input, Output
-import sys
-
 import pandas as pd
-import numpy as np
 import plotly.graph_objs as go
+from dash.dependencies import Input
+from dash.dependencies import Output
 from plotly import tools
-
 from sklearn.metrics import mean_squared_error
-from math import sqrt
 
 
 external_stylesheets = ["https://codepen.io/chriddyp/pen/bWLwgP.css"]
